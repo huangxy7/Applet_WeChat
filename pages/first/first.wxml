@@ -1,0 +1,18 @@
+<!--pages/first/first.wxml-->
+<view class='whole' style='background:url("../image/first.jpg");-webkit-background-size:cover;'>
+  <view class='zhezhao'></view>
+  <view class="clouds">
+      <image class="cloud" animation="{{animationCloudData}}" src="../image/cloud.png"      mode='widthFix'></image>
+      <image class="cloud1" animation="{{animationCloudData}}" src="../image/cloud1.png"      mode='widthFix'></image>
+      <image class="cloud2" animation="{{animationCloudData}}" src="../image/cloud2.png"      mode='widthFix'></image>
+      <image class="cloud3" animation="{{animationCloudData}}" src="../image/cloud3.png"      mode='widthFix'></image>
+  </view>
+  <view class='slogan'>
+    <view class='one'>方寸之内</view>
+    <view class='one'>言语之间</view>
+    <view class='one'>让方言学习拉近你我的距离</view>
+  </view>
+  <view class="button-sp-area">
+    <button class="weui-btn" type="default" bindtap='begins'>开始学习</button>
+  </view>
+</view>

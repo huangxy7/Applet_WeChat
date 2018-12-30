@@ -1,0 +1,72 @@
+/* pages/newMusic/index.wxss */
+page{  
+  background-color: blue;  
+  width:100%;  
+  height:100%;  
+  
+}  
+.whole{  
+  background-color: green;  
+  width:100%;  
+  height:100%;
+  
+}  
+.learn{
+  position: absolute;
+  top: 13%;
+  left: 18%;
+
+}
+.theinput{
+  background: white;
+  padding: 2px;
+  width: 200px;
+  margin-bottom: 5%;
+}
+.quyu{
+  font-size:14px;
+  margin-bottom: 5%;
+
+}
+.voic{
+  margin-bottom: 5%;
+}
+
+.play{
+  left: 10%;
+}
+.similarity{
+  margin-top: 10%;
+}
+.record-style{  
+    position: fixed;  
+    bottom: 0;  
+    left: 0;  
+    height: 120rpx;  
+    width: 100%;  
+}  
+.btn-style{ 
+  position: relative;
+  bottom: 50%;
+  margin-left:18%;  
+  margin-right: 18%;  
+}  
+.speak-style{  
+    position: relative;  
+    height: 240rpx;  
+    width: 240rpx;  
+    border-radius: 20rpx;  
+    margin: 1% auto;  
+    background: #26A5FF;  
+}  
+.sound-style{  
+  position: absolute;  
+  width: 74rpx;  
+  height:150rpx;  
+  margin-top: 45rpx;  
+  margin-left: 83rpx;  
+}  
+.upbut{
+  margin-left:35%;  
+  margin-top: 2%;
+}

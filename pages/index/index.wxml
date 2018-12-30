@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class='whole' style='background:url("../image/index.jpg");-webkit-background-size:cover;'>  
+<view class='learn'>
+<view class='quyu'>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      区域：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+</view>
+
+<label class='sent'>
+{{sentence}}
+</label>{{ax}}
+
+
+<view class='voic'>
+{{voice}}{{upvoice}}
+</view>
+
+<view class='luyin'>
+{{recording}}
+<button bindtap='playRecord' type='primary' size='mini' class='play'>
+播放录音
+</button>
+<view class='similarity'>
+{{similarity}}{{simlary}}
+</view>
+ <view><button bindtap='upfile' class='upbut' type='primary' size='mini'>提交</button></view> 
+<view class="record-style">  
+ <button class="btn-style" bindtouchstart="startRecordMp3" bindtouchend="stopRecord">按住 录音</button>  
+ </view> 
+</view>
+<view  wx:if="{{isSpeaking}}"  class="speak-style">  
+<image class="sound-style" src="../image/1.jpg" ></image>  
+<image wx:if="{{j==2}}" class="sound-style" src="../image/2.jpg" ></image>  
+<image wx:if="{{j==3}}" class="sound-style" src="../image/3.jpg" ></image>  
+<image wx:if="{{j==4}}" class="sound-style" src="../image/4.jpg" ></image>  
+ </view>  
+</view>
+</view>  

@@ -1,0 +1,33 @@
+{
+  "pages": [  
+    "pages/first/first",
+    "pages/teach/teach",
+    "pages/home/home",
+    "pages/index/index"
+    
+    
+  ],
+  "window": {
+  "navigationBarBackgroundColor": "#D3D3D3",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学方言",
+        "color": "#FF0000"
+      },
+      {
+        "pagePath": "pages/teach/teach",
+        "text": "教方言"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的"
+      }
+    ]
+  }
+}
